@@ -162,6 +162,7 @@ window.onload = function(){
 
 	document.onkeydown = function(){
 		var t = event.which;
+		var d = snake.direcaoAtual;
 
 		if(t != 37 && t != 38 && t != 39 && t != 40){
 			return;
